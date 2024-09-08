@@ -1,0 +1,81 @@
+
+body{
+  background-color: rgb(39,43,48);
+
+}
+
+
+#landing{
+  background-image: url(../assets/wraper.png);
+  background-size: cover;
+  /* width: 100%; */
+  height:30vh;
+}
+@media screen and (max-width:768px){
+  #landing{
+    height:20vh;
+  }
+}
+  
+
+#logo{
+  width: 40px;
+}
+.navbar{
+  background-color: #3a497b;
+  color: white;
+}
+.navbar ul li a{
+  color: white;
+}
+.navbar-nav .nav-link.active{
+  color: #1d70a3;
+}
+.box{
+  transition: all 1s ;
+}
+
+.overlay{
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: all 1s;
+  
+}
+.scale:hover{
+  cursor: pointer;
+  transform: scale(1.1,1.1);
+  
+}
+.col-md-4:hover .overlay{
+  background-color: rgba(0, 0, 0, 0);
+
+}
+
+
+.fa-solid{
+cursor: pointer;
+color: white;
+opacity: 0.5;
+transition: all 1s;
+}
+.fa-solid:hover{
+  opacity: 1;
+}
+.col-md-4{
+min-height: 200px;
+}
+
+.p-text{
+  font-size: 14px;
+}
+#hh{
+height: 38px;
+}
+/* body{
+  overflow: hidden;
+} */
